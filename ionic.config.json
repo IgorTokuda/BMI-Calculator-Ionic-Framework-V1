@@ -1,0 +1,11 @@
+{
+  "name": "BMI",
+  "integrations": {},
+  "pro_id": "82b1c46f",
+  "watchPatterns": [
+    "scss/**/*",
+    "www/**/*",
+    "!www/lib/**/*",
+    "!www/**/*.map"
+  ]
+}

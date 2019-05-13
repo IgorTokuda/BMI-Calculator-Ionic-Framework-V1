@@ -1,0 +1,24 @@
+<ion-view view-title="Body Mass">
+  <ion-content class="padding">
+
+
+    <img src="img/diet.jpg" class="imgV"/>
+    <div class="list">
+       <label class="item item-input item-floating-label">
+         <span class="input-label">Weight</span>
+         <input type="text" placeholder="Weight (Kilo-grams)" ng-model="method.weight">
+        </label>
+     </div>
+    <div class="list">
+       <label class="item item-input item-floating-label">
+         <span class="input-label">Height</span>
+         <input type="text" placeholder="Height (Centi-meters)" ng-model="method.height">
+        </label>
+     </div>
+     <div class="list">
+        <button class="button button-block button-balanced" ng-click='Calbmi()'>Body Mass Index</button>
+        <button class="button button-block button-assertive" ng-click='reset()'>Reset</button>
+     
+     </div>
+  </ion-content>
+</ion-view>
